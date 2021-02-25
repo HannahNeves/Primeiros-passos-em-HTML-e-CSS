@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Trabalhando com links</h1>
+    <hr>
+    <h2>Usando links externos</h2>
+    <!-- Substitui a aba -->
+    <p>Canal gratuito do Curso em Vídeo no youtube <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">Curso em Vídeo</a></p>
+
+    <!-- Abre uma nova aba -->
+    <p>Repositório público no GitHub do Guanabara <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">GitHub do Guanabara</a></p>
+
+    <h2>Usando links internos</h2>
+    <!-- Para isso dá certo, os arquivos html precisam estar na mesma pasta -->
+    <p>Está é a primeira página do site.</p>
+    <p><a href="pag002.html" target="_self" rel="next">Clique aqui</a> para acessar a segunda página do site.</p>
+
+    <h2>Link para download</h2>
+    <ul>
+        <li><a href="docs/CNH_HannahMNeves.pdf" download="CNH_HannahMNeves.pdf" type="application/pdf">CNH em pdf</a></li>
+        <li><a href="docs/CNH_HannahMNeves.rar" download="CNH_HannahMNeves.rar" type="application/zip">CNH em rar</a></li>
+    </ul>
+
+    <!--OBS.: Media type: http://www.iana.org/assignments/media-types/media-types.xhtml-->
+    <!--OBS.: Para link vazio coloca #: href="#" -->
+</body>
+</html>
